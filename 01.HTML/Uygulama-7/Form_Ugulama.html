@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/01.HTML/Uygulama-7/index.html">Anasayfa</a>
+      <a href="/01.HTML/Uygulama-7/En_Iyi_Filmler.html">En iyi filmler</a>
+      <a href="/01.HTML/Uygulama-7/Form_Ugulama.html">Kayıt Ol</a>
+    </nav>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz</h1>
+    <hr />
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="ad">Kullanıcı Adı:</label>
+        </td>
+        <td>
+          <input type="text" id="ad" placeholder="Kullanıcı Adı Giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="eposta">Eposta:</label>
+        </td>
+        <td>
+          <input type="email" id="eposta" placeholder="Eposta Giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="sifre">Parola</label>
+        </td>
+        <td>
+          <input type="password" id="sifre" placeholder="Şifre Giriniz" />
+        </td>
+      </tr>
+    </table>
+
+    <h2>Kişisel Bilgiler</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="isim">Adınız</label>
+        </td>
+        <td>
+          <input type="ad" id="isim" placeholder="Adınızı Giriniz" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="soyad">Soyadınız</label>
+        </td>
+        <td>
+          <input type="soyad" id="soyad" placeholder="Soyadınızı Giriniz" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cities">Sehir</label>
+        </td>
+        <td>
+          <select name="cities">
+            <option>Seçiniz</option>
+            <option value="01">Adana</option>
+            <option value="06">Ankara</option>
+            <option value="16">Bursa</option>
+            <option value="26">Eskişehir</option>
+            <option value="34">İstanbul</option>
+            <option value="41">Kocaeli</option>
+            <option value="55">Samsun</option>
+            <option value="61">Trabzon</option>
+            <option value="72">Kırıkkale</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cinsiyet">Cinsiyet</label>
+        </td>
+        <td>
+          <input type="radio" name="cinsiyet" />Erkek
+          <input type="radio" name="cinsiyet" />Kadın
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="hobiler">Hobileriniz</label>
+        </td>
+        <td>
+          <input type="checkbox" />Sinema <input type="checkbox" />Gezmek
+          <input type="checkbox" />Spor <input type="checkbox" />Kitap
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button type="submit">Kaydet</button>
+          <button type="reset">Temizle</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
