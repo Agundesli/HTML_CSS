@@ -93,7 +93,16 @@
       .row{
           margin-bottom: 40px;
       }
-      .col{
+      .col-2{
+        display: inline-block;
+        width: 48%;
+        margin-left: 5px;
+     
+        height: 350px;
+        background-color: brown;
+        vertical-align: top;
+      }
+      .col-3{
           display: inline-block;
           width: 30%;
           padding: 16px;
@@ -109,6 +118,35 @@
       }
       .icon-box i{
           color: #fc997c;
+      }
+      .features__left{
+        background:url("Uygulama-3/5f58db4c7152d808ac41c013.webp");
+        background-size: cover;
+        background-position: top,center;
+      }
+      .features__right{
+        background-color: #edf5f7;
+        padding: 40px;
+        vertical-align: top;
+      }
+      .features__right h3{
+        font-size: 30px;
+      }
+      #features a{
+        background-color: #fc997c;
+        columns: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid #fc997c;
+        border-radius: 3px;
+        display: inline-block;
+        margin-top: 15px;
+      }
+      #features a:hover{
+        border: 1px solid #fc997c;
+        color: #fc997c;
+        background-color: #fff;
       }
     </style>
   </head>
@@ -139,22 +177,33 @@
           </div>
 
           <div class="row">
-              <div class="icon-box col">
+              <div class="icon-box col-3">
                 <i class="fa-solid fa-flask-vial fa-2x"></i>
                   <h3>Register</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reprehenderit quaerat magni sit iste temporibus enim aliquid consequatur. Eaque, quidem ut nostrum saepe optio dolores exercitationem ad repellat necessitatibus quibusdam!</p>
               </div>
-              <div class="icon-box col">
+              <div class="icon-box col-3">
                 <i class="fa-solid fa-clipboard-user fa-2x"></i>
                 <h3>Choose a Plan</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reprehenderit quaerat magni sit iste temporibus enim aliquid consequatur. Eaque, quidem ut nostrum saepe optio dolores exercitationem ad repellat necessitatibus quibusdam!</p>
               </div>
-              <div class="icon-box col">
+              <div class="icon-box col-3">
                 <i class="fa-solid fa-vial fa-2x"></i>
                 <h3>Application</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reprehenderit quaerat magni sit iste temporibus enim aliquid consequatur. Eaque, quidem ut nostrum saepe optio dolores exercitationem ad repellat necessitatibus quibusdam!</p>
               </div>
           </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features__left"></div>
+          <div class="col-2 features__right">
+            <h3>Watch all Movies & TV Shows once they get released!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sit aspernatur quo ad itaque, porro rerum excepturi totam, assumenda quisquam fuga soluta, quis ullam repudiandae nostrum ratione architecto pariatur dicta.</p>
+            <a href="#">View Fetures</a>
+          </div>
+        </div>
+
       </section>
     </main>
   </body>
